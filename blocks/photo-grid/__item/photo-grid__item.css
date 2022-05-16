@@ -1,0 +1,8 @@
+.photo-grid__item {
+    width: 284px;
+    height: 213px;
+    justify-items: start;
+    align-items: start;
+    justify-content: start;
+    align-content: start;
+}
