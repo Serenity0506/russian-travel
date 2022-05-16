@@ -1,0 +1,10 @@
+.cover {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100%;
+    justify-items: center;
+
+    overflow: hidden;
+    position: relative;
+    margin-top: 92px;
+}
