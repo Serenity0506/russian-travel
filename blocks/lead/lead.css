@@ -3,5 +3,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 148px;
+    margin: 56px 148px 0 148px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        margin: 48px 48px 0 48px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .lead {
+        margin: 48px 0 0 0;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .lead {
+        margin: 48px 0 0 0;
+    }
 }

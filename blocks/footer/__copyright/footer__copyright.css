@@ -9,3 +9,15 @@
 
     text-align: right;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        display: block;
+        margin: 48px 0 24px 0;
+
+        font-size: 14px;
+        line-height: 14px;
+
+        text-align: left;
+    }
+}
