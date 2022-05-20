@@ -10,7 +10,7 @@
     text-align: right;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 680px) {
     .footer__copyright {
         display: block;
         margin: 48px 0 24px 0;
