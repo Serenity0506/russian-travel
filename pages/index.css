@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/inter.css);
 @import url(../blocks/page/page.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang/header__lang.css);
@@ -21,9 +22,10 @@
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/photo-grid/__image/\ photo-grid__image.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 @import url(../blocks/places/places.css);
+
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__link/place__link.css);
@@ -39,12 +41,13 @@
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__block/footer__block.css);
-
-
+@import url(../blocks/footer/__block-item/footer__block-item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 
 body {
-background-color: #2A2C2F;
+    background-color: #2A2C2F;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
 }

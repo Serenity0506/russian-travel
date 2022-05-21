@@ -1,5 +1,7 @@
 # Проект: Путешествие по России
 
+Проект опубликован на Github pages: [ссылка](https://serenity0506.github.io/russian-travel/)
+
 ### Обзор
 * Интро
 * Figma

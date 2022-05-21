@@ -3,7 +3,7 @@
     grid-template-columns: repeat(auto-fit, 284px);
     grid-template-rows: repeat(3, 213px);
     gap: 16px;
-    margin: 92px 0 92px 0;
+    padding: 92px 0 0 0;
     justify-content: center;
 }
 
@@ -13,7 +13,7 @@
         grid-template-columns: repeat(auto-fit, 300px);
         grid-template-rows: repeat(3, 225px);
         gap: 14px;
-        margin: 92px 0 0 0;
+        padding: 92px 0 0 0;
     }
 }
 
@@ -23,7 +23,7 @@
         grid-template-columns: repeat(auto-fit, calc(50vw - 50px));
         grid-template-rows: none;
         gap: 16px;
-        margin: 88px 24px 88px 24px;
+        padding: 88px 24px 0 24px;
     }
 }
 
@@ -31,7 +31,6 @@
     .photo-grid {
         grid-template-columns: repeat(auto-fit, 100%);
         row-gap: 16px;
-        margin: 64px 16px 0 16px;
-
+        padding: 64px 16px 0 16px;
     }
 }
