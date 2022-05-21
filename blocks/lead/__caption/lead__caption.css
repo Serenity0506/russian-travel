@@ -9,10 +9,18 @@
     text-transform: uppercase;
 
     margin: 8px 0 0 0;
+    align-self: flex-start;
 
     color: #FFFFFF;
-    width: 100%;
 }
+
+
+@media screen and (max-width: 1024) {
+    .lead__caption {
+        margin: 8px 0 0 0;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .lead__caption {
